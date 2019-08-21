@@ -16,6 +16,86 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+  text-align: center;
+  height: 100%;
+}
+
+.logo > img {
+  margin-top: 100px;
+  width: 450px;
+}
+
+.search-area {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tweet {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  text-align: left;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+
+.tweet_avatar > img {
+  width: 60px;
+}
+
+.tweet__body {
+  margin-left: 10px;
+}
+
+.tweet_body_header > span {
+  display: inline-block;
+}
+
+span.tweet__username {
+  color: black;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+span.tweet__handle,
+span.tweet__date {
+  font-size: 1.2rem;
+}
+
+.tweet_body_text {
+  font-size: 1.1rem;
+}
+
+p > em {
+  color: #1dcaff;
+  font-weight: bold;
+}
+
+.tweet_body_text > input {
+  width: 70%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.6rem;
+}
+
+.tweet_body_text > button {
+  width: 70%;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.8rem;
+  border: none;
+  background-color: #1dcaff;
+  color: #fff;
+  font-weight: bold;
+}
+
 /* .App {
   text-align: center;
 }
