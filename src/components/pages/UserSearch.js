@@ -13,7 +13,7 @@ export class UserSearch extends Component {
         <a href="#">Random Search</a>
        </nav>
        <div className="header">
-        <div className="search-bar">
+        <div className="title-bar">
           <input type="text" id="user-search" placeholder="Elon Musk"/>
         </div>
        </div>

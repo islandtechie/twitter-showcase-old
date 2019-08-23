@@ -63,7 +63,7 @@ nav > a:hover,
   align-items: center;
 }
 
-.header > .search-bar > input {
+.header > .title-bar > input {
   width: 550px;
   height: 45px;
   padding-left: 5px; 
@@ -73,6 +73,14 @@ nav > a:hover,
   text-align: center;
 }
 
+.header > .title-bar > p {
+  color: #fff;
+  width: 550px;
+  height: 45px;
+  font-size: 2.3rem;
+  font-weight: bold;
+  text-align: center;
+}
 
 .logo > img {
   margin-top: 100px;
@@ -163,7 +171,11 @@ p > em {
   will-change: overflow;
   justify-content: center;
   align-items: center;
- 
+}
+
+.random-container {
+  display: flex;
+  
 }
 
 .tweets {
@@ -171,7 +183,55 @@ p > em {
   height: calc(100vh - 135px);
   padding: .5rem;
   margin-top: 135px;
-  
+}
+
+.tweeters,
+.tweet-area {
+  height: calc(100vh - 135px);
+  padding: .5rem;
+  margin-top: 135px;
+}
+
+.tweeters {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tweeter {
+  border:1px solid black;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  width: 28vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tweeter > img {
+  margin: 10px;
+  width: 6.5vw;
+  height: 6.5vw;
+}
+
+span.tweeter-name {
+  margin-right: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+span.tweeter-handle {
+  font-size: 1.3rem;
+}
+.tweeter:hover {
+  background-color: #1dcaff;
+  color: #fff;
+}
+
+.tweet-area {
+  flex: 2;
 }
 /* .App {
   text-align: center;
