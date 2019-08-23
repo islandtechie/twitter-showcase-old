@@ -1,8 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Tweet from '../Tweet';
 import NavBar from '../NavBar';
+import Tweeter from '../Tweeter';
 
-export class RandomSearch extends Component {
+class RandomSearch extends Component {
   render() {
     return (
       <div>
@@ -17,27 +18,11 @@ export class RandomSearch extends Component {
       </div>
       <div className="random-container">
        <div className="tweeters">
-          <div className="tweeter">
-              <img src="https://avatars0.githubusercontent.com/u/1?v=4" alt=""/>
-              <span className="tweeter-name">Elon Musk</span>
-              <span className="tweeter-handle">@tweet_handle</span>
-          </div>
-          <div className="tweeter">
-              <img src="https://avatars0.githubusercontent.com/u/1?v=4" alt=""/>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-          </div>
-          <div className="tweeter">
-              <img src="https://avatars0.githubusercontent.com/u/1?v=4" alt=""/>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-          </div>
-          <div className="tweeter">
-              <img src="https://avatars0.githubusercontent.com/u/1?v=4" alt=""/>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-          </div>
-          <div className="tweeter">
-              <img src="https://avatars0.githubusercontent.com/u/1?v=4" alt=""/>
-              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-          </div>
+          <Tweeter />
+          <Tweeter />
+          <Tweeter />
+          <Tweeter />
+          <Tweeter />
        </div>
        <div className="tweet-area">
         <Tweet />

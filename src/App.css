@@ -161,16 +161,7 @@ p > em {
 .user-container {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   height: 100%;
-  margin-top: -100px;
-  padding-top: 100px;
-  position: relative;
-  width: 100%;
-  backface-visibility: hidden;
-  will-change: overflow;
-  justify-content: center;
-  align-items: center;
 }
 
 .random-container {
