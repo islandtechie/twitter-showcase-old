@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Tweet from '../Tweet';
+import NavBar from '../NavBar';
 
 export class RandomSearch extends Component {
   render() {
@@ -7,11 +8,7 @@ export class RandomSearch extends Component {
       <div>
       <Fragment>
       <div className="top-content">
-      <nav>
-      <a href="#">Home</a>
-      <a href="#">User Search</a>
-      <a href="#">Random Search</a>
-     </nav>
+      <NavBar />
      <div className="header">
       <div className="title-bar">
         <p>Grab-A-Tweet</p>

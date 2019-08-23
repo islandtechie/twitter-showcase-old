@@ -15,12 +15,7 @@ function App() {
             )
           }
           ></Route>
-          <Route exact path='/user-search' render={
-            props => (
-              <UserSearch />
-            )
-          }
-          ></Route>
+          <Route exact path='/user-search' component={UserSearch}></Route>
           <Route exact path='/random-search' render={
             props => (
               <RandomSearch />

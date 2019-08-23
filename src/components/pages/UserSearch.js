@@ -1,17 +1,15 @@
 import React, { Component, Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import Tweet from '../Tweet';
+import NavBar from '../NavBar';
 
-export class UserSearch extends Component {
+class UserSearch extends Component {
   render() {
     return (
 
       <Fragment>
         <div className="top-content">
-        <nav>
-        <a href="#">Home</a>
-        <a href="#" className="active">User Search</a>
-        <a href="#">Random Search</a>
-       </nav>
+        <NavBar />
        <div className="header">
         <div className="title-bar">
           <input type="text" id="user-search" placeholder="Elon Musk"/>
