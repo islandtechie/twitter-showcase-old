@@ -5,6 +5,7 @@ class Home extends Component {
 
 
   render() {
+    
     return(
       <div className="container">
       <div className="logo">
@@ -14,7 +15,6 @@ class Home extends Component {
       <Tweet 
       username="SearchForATweet"
       handle="@SearchForATweet"
-      date="24 May 2019"
       text={["Use the Search box below to search for a tweet from someone you follow! You can search by ",<em>@twitter_handle</em>, " or " ,<em>tweet content</em>,"."]}
       inputText=""
       inputID="user-search"
@@ -23,7 +23,6 @@ class Home extends Component {
       <Tweet 
       username="RandomTweet"
       handle="@SearchARandomTweet"
-      date="24 May 2019"
       text={["Use the Grab-A-Tweet button to search for a random tweet from people we follow! ",<em>#InspirationLaughsSelfDevlopment</em>]}
       inputElement="Button"
       inputText="Grab-A-Tweet"

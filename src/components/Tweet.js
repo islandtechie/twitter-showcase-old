@@ -15,6 +15,8 @@ class Tweet extends Component {
 
   
   render() {
+    const date = new Date(Date.now()).toDateString();
+    
     return (
       <div className="tweet">
         <div className="tweet_avatar">
@@ -24,7 +26,7 @@ class Tweet extends Component {
           <div className="tweet_body_header">
             <span className="tweet__username">{this.props.username}</span>
             <span className="tweet__handle">{this.props.handle}</span>&#8226;
-            <span className="tweet__date">{this.props.date}</span>
+            <span className="tweet__date">{date}</span>
           </div>
           <div className="tweet_body_text">
             <p>{this.props.text}</p>
