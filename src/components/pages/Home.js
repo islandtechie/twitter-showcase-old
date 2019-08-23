@@ -6,7 +6,7 @@ class Home extends Component {
 
   render() {
     return(
-      <Fragment>
+      <div className="container">
       <div className="logo">
       <img src="_assets/t-logo.png" alt=""/>
     </div>
@@ -31,7 +31,7 @@ class Home extends Component {
       inputPlaceholder="@elonmusk or 'bananas"
       />
     </div>
-      </Fragment>
+      </div>
     );
   }
 }

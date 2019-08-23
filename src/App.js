@@ -8,7 +8,6 @@ import RandomSearch from '../src/components/pages/RandomSearch';
 function App() {
   return (
     <Router>
-      <div className="container">
         <Switch>
           <Route exact path='/' render={
             props => (
@@ -29,7 +28,6 @@ function App() {
           }
           ></Route>
         </Switch>
-      </div>  
     </Router>
   );
 }
