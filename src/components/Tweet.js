@@ -1,6 +1,19 @@
 import React, { Component } from 'react'
 
 class Tweet extends Component {
+  state = {
+    searchText: ''
+  };
+
+  onClick = (e) => {
+    alert('events works');
+  }
+
+  onChange = (e) => {
+    this.setState({ searchText: e.target.value});
+  };
+
+  
   render() {
     return (
       <div className="tweet">
@@ -17,8 +30,8 @@ class Tweet extends Component {
             <p>{this.props.text}</p>
             {
               (this.props.inputElement === 'Button') ?
-              <button type="button" id={this.props.inputID}>{this.props.inputText}</button> :
-              <input type="text" id={this.props.inputID} placeholder={this.props.inputPlaceholder}/> 
+              <button type="button" id={this.props.inputID} onClick={this.onClick}>{this.props.inputText}</button> :
+              <input type="text" id={this.props.inputID} placeholder={this.props.inputPlaceholder} value={this.state.searchText} onChange={this.onChange}/> 
             }
           </div>
         </div>
