@@ -1,10 +1,15 @@
 import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
-import Tweet from '../Tweet';
 import NavBar from '../NavBar';
 
 class UserSearch extends Component {
+
+  state = {
+    
+  }
   render() {
+
+    console.log(this.props.location.state.searchText);
     return (
 
       <Fragment>
@@ -18,21 +23,6 @@ class UserSearch extends Component {
         </div>
         <div className="user-container">
           <div className="tweets">
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
-          <Tweet />
           </div>
        </div>
       </Fragment>
