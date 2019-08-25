@@ -1,15 +1,19 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import NavBar from '../NavBar';
 
 class UserSearch extends Component {
 
   state = {
-    
+    searchText: null
   }
+
+  componentDidMount() {
+    console.log(this.props);
+  }
+  
   render() {
 
-    console.log(this.props.location.state.searchText);
+    console.log();
     return (
 
       <Fragment>

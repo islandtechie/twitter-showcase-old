@@ -8,9 +8,9 @@ import RandomSearch from '../src/components/pages/RandomSearch';
 function App() {
   return (
     <Router>
-          <Route exact path='/'component={Home} />
-          <Route exact path='/user-search' component={UserSearch} />
-          <Route exact path='/random-search' component={RandomSearch} />
+        <Route exact path='/'component={Home} />
+        <Route exact path='/user-search' component={UserSearch} />
+        <Route exact path='/random-search' component={RandomSearch} />
     </Router>
   );
 }
