@@ -7,7 +7,6 @@ class RandomSearch extends Component {
       return (
         <Fragment>
         <div className="top-content">
-        <NavBar />
        <div className="header">
         <div className="title-bar">
           <p>Grab-A-Tweet</p>

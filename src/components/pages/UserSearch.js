@@ -8,17 +8,16 @@ class UserSearch extends Component {
   }
 
   componentDidMount() {
-    console.log(this.props);
+    if (this.props.location.state && this.state.searchText === null)
+    {
+      this.state.searchText = this.props.location.state.searchText;
+    }
   }
   
   render() {
-
-    console.log();
     return (
-
       <Fragment>
         <div className="top-content">
-        <NavBar />
        <div className="header">
         <div className="title-bar">
           <input type="text" id="user-search" placeholder="Elon Musk"/>
