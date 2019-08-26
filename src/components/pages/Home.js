@@ -30,7 +30,7 @@ class Home extends Component {
                         <div className="tweet_body_header">
                             <span className="tweet__username">SearchForATweet</span>
                             <span className="tweet__handle">@SearchForATweet</span> &#8226;
-                            <span className="tweet__date">{this.date}</span>
+                            <span className="tweet__date">{date}</span>
                         </div>
                         <div className="tweet_body_text">
                             <p>Use the Search box below to search for a tweet from someone you follow! You can search by <em>@twitter_handle</em> or <em>tweet content</em>.</p>
@@ -46,7 +46,7 @@ class Home extends Component {
                         <div className="tweet_body_header">
                             <span className="tweet__username">GrabATweet</span>
                             <span className="tweet__handle">@grabATweet</span> &#8226;
-                            <span className="tweet__date">{this.date}</span>
+                            <span className="tweet__date">{date}</span>
                         </div>
                         <div className="tweet_body_text">
                             <p>Use the Grab-A-Tweet box below to search for a tweet from someone we follow! <em>#InspirationLaughsSelfDevelopment</em></p>
