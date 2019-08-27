@@ -229,6 +229,10 @@ span.tweeter-handle {
   justify-content: space-evenly;
 }
 
+.tweets > .tweet > .tweet_avatar > img{
+  width: 6.6vw;
+}
+
 
 /* .App {
   text-align: center;
