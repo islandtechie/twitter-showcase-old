@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import NavBar from '../NavBar';
 import Tweeter from '../Tweeter';
+import Tweet from '../Tweet';
 
 class RandomSearch extends Component {
     render() {
@@ -22,6 +23,11 @@ class RandomSearch extends Component {
             <Tweeter />
          </div>
          <div className="tweet-area">
+         <Tweet />
+         <Tweet />
+         <Tweet />
+         <Tweet />
+         <Tweet />
          </div>
         </div>
       </Fragment>

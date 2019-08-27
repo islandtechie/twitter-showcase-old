@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import NavBar from '../NavBar';
+import Tweet from '../Tweet';
 
 class UserSearch extends Component {
 
@@ -26,6 +26,16 @@ class UserSearch extends Component {
         </div>
         <div className="user-container">
           <div className="tweets">
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
+            <Tweet />
           </div>
        </div>
       </Fragment>
