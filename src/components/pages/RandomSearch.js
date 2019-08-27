@@ -5,7 +5,48 @@ import Tweet from '../Tweet';
 class RandomSearch extends Component {
 
   state = {
-    tweeters: null,
+    tweeters: [
+      {
+      username: "mojombo",
+      handle: "@mojombo",
+      id: 1,
+      avatar_url: "https://avatars0.githubusercontent.com/u/1?v=4",
+      text: "some text",
+      date: '12 June 2019'
+
+  },
+  {
+      username: "defunkt",
+      handle: "@defunkt",
+      id: 2,
+      avatar_url: "https://avatars0.githubusercontent.com/u/2?v=4",
+      text: "some text",
+      date: '12 June 2019'
+  },
+  {
+      username: "pjhyett",
+      handle: "pjhyett",
+      id: 3,
+      avatar_url: "https://avatars0.githubusercontent.com/u/3?v=4",
+      text: "some text",
+      date: '12 June 2019'
+  },
+  {
+      username: "pjhyett",
+      handle: "pjhyett",
+      id: 4,
+      avatar_url: "https://avatars0.githubusercontent.com/u/3?v=4",
+      text: "some text",
+      date: '12 June 2019'
+  },
+  {
+      username: "pjhyett",
+      handle: "pjhyett",
+      id: 5,
+      avatar_url: "https://avatars0.githubusercontent.com/u/3?v=4",
+      text: "some text",
+      date: '12 June 2019'
+  }],
     tweets: [
       {
           username: "mojombo",
