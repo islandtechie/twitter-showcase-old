@@ -15,6 +15,10 @@ class Search extends Component {
     this.setState({ text : ''});
   }
 
+  componentDidMount() {
+    
+  }
+
   render() {
     return (
       <form onSubmit={this.onSubmit}>
